@@ -11,8 +11,8 @@ public class BilietaiTest {
     static ChromeDriver chrome;
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chromedriver125.exe",
-                Paths.get("src/main/resources/drivers/chromedriver125.exe").toString());
+        System.setProperty("webdriver.chromedriver126.exe",
+                Paths.get("src/main/resources/drivers/chromedriver126.exe").toString());
 
         chrome = new ChromeDriver();
         chrome.get("https://www.autobusubilietai.lt/");
