@@ -18,8 +18,8 @@ public class AutobusaiTest {
         String kelionesNuoroda = "https://www.autobusubilietai.lt/";
 
         // Nustatome chromedriver kelio iš katalogo
-        System.setProperty("webdriver.chromedriver125.exe",
-                Paths.get("src/main/resources/drivers/chromedriver125.exe").toString());
+        System.setProperty("webdriver.chromedriver126.exe",
+                Paths.get("src/main/resources/drivers/chromedriver126.exe").toString());
 
         // Paleidžiame chromedriver
         chrome = new ChromeDriver();
